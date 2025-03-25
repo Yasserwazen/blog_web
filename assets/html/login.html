@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تسجيل الدخول</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <header class="login-header">
+        <h1>مرحبًا بعودتك!</h1>
+        <p>سجل دخولك الآن للوصول إلى حسابك</p>
+    </header>
+    <div class="login-container">
+        <h1>تسجيل الدخول</h1>
+        <form id="login">
+            <input type="hidden" name="login" value="2"> <!-- إضافة معلمة login -->
+            <input type="email" name="email" placeholder="البريد الإلكتروني" id="email_login" required>
+            <input type="password" name="password" placeholder="كلمة المرور" id="password_login" required>
+            <button type="submit">تسجيل الدخول</button>
+        </form>
+        <p id="error-message" class="error"></p>
+        <p>ليس لديك حساب؟ <a href="register.html">إنشاء حساب</a></p>
+    </div>
+</body>
+<script src="/assets/js/login.js"></script>
+</html>

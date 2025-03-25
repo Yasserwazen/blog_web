@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>إضافة مقال</title>
+    <link rel="stylesheet" href="../css/add-post.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>إضافة مقال</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">الصفحة الرئيسية</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="add-post">
+            <h2>إضافة مقال جديد</h2>
+            <form id="postForm">
+                <input type="text" id="postTitle" placeholder="عنوان المقال" required>
+                <textarea id="postContent" placeholder="محتوى المقال" required></textarea>
+                <button type="submit">نشر المقال</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2023 مدونتي الشخصية. جميع الحقوق محفوظة.</p>
+        <div class="social-links">
+            <a href="https://twitter.com/developer" target="_blank">🐦 تويتر</a>
+            <a href="https://github.com/developer" target="_blank">🐙 جيت هاب</a>
+            <a href="mailto:developer@example.com">📧 البريد الإلكتروني</a>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script src="../js/add_post.js"></script>
+</body>
+</html>
